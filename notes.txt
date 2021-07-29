@@ -1,0 +1,49 @@
+  Se creo el proyecto:
+	- SQLITE
+	- Composer
+	- Laravel UI:
+		composer require laravel/ui
+		php artisan ui bootstrap --auth
+		npm install && npm run dev
+
+Agregando el modelo:
+	php artisan make:model Todo -m 
+				 *-m para correr la migracion ahi mismo
+				 
+Creamos los campos de la tabla en la migracion.
+
+Volviendo al modelo:
+	
+	Se agregan los datos de las tablas y algunas funciones
+	para crear relaciones entre ambos modelos asi como algunos campos
+
+Creando el controlador:
+	
+	comando: php artisan make:controller ____________
+	
+	Agregar las funciones al controlador
+	
+	***controlador de recursos:
+	php artisan make:controller TasksController -r
+	
+	estos ya traen las funciones predefinidas de un crud, como son:
+	-update
+	-destroy
+	-create
+	-show
+	-edit
+	-index
+	
+Ir al Router y agregar la vista:
+
+	-Llamar a la lista de routes
+		php artisan route:list
+
+
+
+
+
+
+
+
+
